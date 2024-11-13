@@ -1,5 +1,4 @@
 'use strict';
-
 const max = (matrix) => {
   let max = -Infinity;
   for (let row = 0; row < matrix.length; row++)
@@ -11,6 +10,5 @@ const max = (matrix) => {
   return max;
 };
 console.log(max([[1,  2, 3], [4, 11, 6], [7, 8, 9]]));
-
 
 module.exports = { max };
