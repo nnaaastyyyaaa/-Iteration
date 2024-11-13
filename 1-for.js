@@ -8,4 +8,5 @@ const sum = (...args) => {
   return s;
 };
 console.log(sum(15, 17, 23, 46));
+
 module.exports = { sum };
