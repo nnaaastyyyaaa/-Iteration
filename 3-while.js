@@ -1,5 +1,4 @@
 'use strict';
-
 const sum = (...args) => {
   let s = 0;
   let i = 0;
@@ -10,4 +9,5 @@ const sum = (...args) => {
   return s;
 };
 console.log(sum(1, 2, 3));
+
 module.exports = { sum };
