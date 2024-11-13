@@ -1,5 +1,4 @@
 'use strict';
-
 const sum = (...args) => {
   let s = 0;
   for (const arg of args) {
